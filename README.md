@@ -1,2 +1,5 @@
 # IID-GCN
-We Introduce An Interpretable Information-Decomposed Brain Graph Learning for fMRI-based Disease Diagnosis
+We Introduce An Interpretable Information-Decomposed Brain Graph Learning for fMRI-based Disease Diagnosis.
+
+This repository provides the official implementation of **IID-GCN: Interpretable Graph Learning of Redundant, Unique, and Synergistic Brain Information for fMRI-based Brain Disease Diagnosis**. IID-GCN employs partial entropy decomposition to separate multivariate rs-fMRI signals into redundancy, uniqueness, and synergy information, constructs information-specific brain graphs, and learns their complementary representations through graph convolution, cross-information interaction, ROI attention, soft node grouping, and channel-aware fusion for brain disorder diagnosis. The framework has been evaluated on ADNI, PPMI, and ABIDE and can also be adapted to other multivariate time-series or network-based classification tasks. Although some code comments are written in Chinese, they can be easily translated and adapted with tools such as GPT. If you find this repository useful, please consider citing our paper.
+
